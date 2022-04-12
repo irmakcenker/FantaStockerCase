@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+       "name": "bilbo",
+       "username": "bilbo_baggins"
+       "avatar": "bilbo_image"
+    },
+      {
+       "name": "frodo",
+       "username": "frodo_baggins"
+       "avatar": "frodo_image"
+    },
+      {
+       "name": "gandalf",
+       "username": "gandalf_the_grey"
+       "avatar": "gandalf_image"
+    }
+  ]
+}
