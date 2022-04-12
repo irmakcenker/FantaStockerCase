@@ -134,9 +134,7 @@ extension MainViewController: UIViewControllerTransitioningDelegate, ProfileSele
     }
     
     func reloadMainScreen() {
-        viewModel.getPosts { [weak self] in
-            self?.tableView.reloadData()
-        }
+        tableView.reloadData()
     }
     
     func dismissCreateViewController() {
