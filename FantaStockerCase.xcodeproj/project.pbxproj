@@ -8,8 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		6A568FD50ACE457310E7379B /* Pods_FantaStockerCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4448D6E84A1A4C421B33E3E /* Pods_FantaStockerCase.framework */; };
-		C328078E2804327300FE53CB /* SavedUser+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328078D2804327300FE53CB /* SavedUser+CoreDataClass.swift */; };
-		C328078F2804327300FE53CB /* SavedUser+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328078C2804327300FE53CB /* SavedUser+CoreDataProperties.swift */; };
+		C32E3D4C2806B00D001AE663 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32E3D462806B00D001AE663 /* User+CoreDataClass.swift */; };
+		C32E3D4D2806B00D001AE663 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32E3D472806B00D001AE663 /* User+CoreDataProperties.swift */; };
+		C32E3D4E2806B00D001AE663 /* SavedUser+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32E3D482806B00D001AE663 /* SavedUser+CoreDataClass.swift */; };
+		C32E3D4F2806B00D001AE663 /* SavedUser+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32E3D492806B00D001AE663 /* SavedUser+CoreDataProperties.swift */; };
+		C32E3D502806B00D001AE663 /* Post+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32E3D4A2806B00D001AE663 /* Post+CoreDataClass.swift */; };
+		C32E3D512806B00D001AE663 /* Post+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32E3D4B2806B00D001AE663 /* Post+CoreDataProperties.swift */; };
 		C35C23592801B4C500B78459 /* ProfilePresantationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C23582801B4C500B78459 /* ProfilePresantationController.swift */; };
 		C35C235C2801B56500B78459 /* ProfileSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C235B2801B56500B78459 /* ProfileSelectionController.swift */; };
 		C35C235E2801B93D00B78459 /* ProfileSelectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C235D2801B93D00B78459 /* ProfileSelectionViewModel.swift */; };
@@ -18,10 +22,6 @@
 		C35C236A28040DC000B78459 /* CreatePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C236928040DC000B78459 /* CreatePostViewController.swift */; };
 		C35C236D28040DE200B78459 /* CreatePostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C236C28040DE200B78459 /* CreatePostViewModel.swift */; };
 		C377C97C28042069004CD504 /* Users.json in Resources */ = {isa = PBXBuildFile; fileRef = C377C97B28042069004CD504 /* Users.json */; };
-		C377C9812804218A004CD504 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C377C97D28042189004CD504 /* User+CoreDataProperties.swift */; };
-		C377C9822804218A004CD504 /* Post+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C377C97E28042189004CD504 /* Post+CoreDataClass.swift */; };
-		C377C9832804218A004CD504 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C377C97F2804218A004CD504 /* User+CoreDataClass.swift */; };
-		C377C9842804218A004CD504 /* Post+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C377C9802804218A004CD504 /* Post+CoreDataProperties.swift */; };
 		C377C98628042288004CD504 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C377C98528042288004CD504 /* UserModel.swift */; };
 		C3D1AFBA2804851400B5B529 /* FSTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D1AFB92804851400B5B529 /* FSTextView.swift */; };
 		C3DA95982800C363003A41EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DA95972800C363003A41EE /* AppDelegate.swift */; };
@@ -43,8 +43,12 @@
 /* Begin PBXFileReference section */
 		56A7C7CDEB5857D24F1C0005 /* Pods-FantaStockerCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantaStockerCase.release.xcconfig"; path = "Target Support Files/Pods-FantaStockerCase/Pods-FantaStockerCase.release.xcconfig"; sourceTree = "<group>"; };
 		7317D8AD3620B7AD5FE0F3FD /* Pods-FantaStockerCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantaStockerCase.debug.xcconfig"; path = "Target Support Files/Pods-FantaStockerCase/Pods-FantaStockerCase.debug.xcconfig"; sourceTree = "<group>"; };
-		C328078C2804327300FE53CB /* SavedUser+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SavedUser+CoreDataProperties.swift"; path = "/Users/cenker.irmak/Desktop/FantaStockerCase/FantaStockerCase/Common/Models/SavedUser+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
-		C328078D2804327300FE53CB /* SavedUser+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SavedUser+CoreDataClass.swift"; path = "/Users/cenker.irmak/Desktop/FantaStockerCase/FantaStockerCase/Common/Models/SavedUser+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		C32E3D462806B00D001AE663 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C32E3D472806B00D001AE663 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C32E3D482806B00D001AE663 /* SavedUser+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SavedUser+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C32E3D492806B00D001AE663 /* SavedUser+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SavedUser+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C32E3D4A2806B00D001AE663 /* Post+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Post+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C32E3D4B2806B00D001AE663 /* Post+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Post+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		C35C23582801B4C500B78459 /* ProfilePresantationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePresantationController.swift; sourceTree = "<group>"; };
 		C35C235B2801B56500B78459 /* ProfileSelectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSelectionController.swift; sourceTree = "<group>"; };
 		C35C235D2801B93D00B78459 /* ProfileSelectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSelectionViewModel.swift; sourceTree = "<group>"; };
@@ -53,10 +57,6 @@
 		C35C236928040DC000B78459 /* CreatePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostViewController.swift; sourceTree = "<group>"; };
 		C35C236C28040DE200B78459 /* CreatePostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostViewModel.swift; sourceTree = "<group>"; };
 		C377C97B28042069004CD504 /* Users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Users.json; sourceTree = "<group>"; };
-		C377C97D28042189004CD504 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "User+CoreDataProperties.swift"; path = "/Users/cenker.irmak/Desktop/FantaStockerCase/FantaStockerCase/Common/Models/User+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
-		C377C97E28042189004CD504 /* Post+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Post+CoreDataClass.swift"; path = "/Users/cenker.irmak/Desktop/FantaStockerCase/FantaStockerCase/Common/Models/Post+CoreDataClass.swift"; sourceTree = "<absolute>"; };
-		C377C97F2804218A004CD504 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "User+CoreDataClass.swift"; path = "/Users/cenker.irmak/Desktop/FantaStockerCase/FantaStockerCase/Common/Models/User+CoreDataClass.swift"; sourceTree = "<absolute>"; };
-		C377C9802804218A004CD504 /* Post+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Post+CoreDataProperties.swift"; path = "/Users/cenker.irmak/Desktop/FantaStockerCase/FantaStockerCase/Common/Models/Post+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
 		C377C98528042288004CD504 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		C3D1AFB92804851400B5B529 /* FSTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSTextView.swift; sourceTree = "<group>"; };
 		C3DA95942800C363003A41EE /* FantaStockerCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FantaStockerCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -271,12 +271,12 @@
 		C3DA95E72800C958003A41EE /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				C328078D2804327300FE53CB /* SavedUser+CoreDataClass.swift */,
-				C328078C2804327300FE53CB /* SavedUser+CoreDataProperties.swift */,
-				C377C97F2804218A004CD504 /* User+CoreDataClass.swift */,
-				C377C97D28042189004CD504 /* User+CoreDataProperties.swift */,
-				C377C97E28042189004CD504 /* Post+CoreDataClass.swift */,
-				C377C9802804218A004CD504 /* Post+CoreDataProperties.swift */,
+				C32E3D4A2806B00D001AE663 /* Post+CoreDataClass.swift */,
+				C32E3D4B2806B00D001AE663 /* Post+CoreDataProperties.swift */,
+				C32E3D482806B00D001AE663 /* SavedUser+CoreDataClass.swift */,
+				C32E3D492806B00D001AE663 /* SavedUser+CoreDataProperties.swift */,
+				C32E3D462806B00D001AE663 /* User+CoreDataClass.swift */,
+				C32E3D472806B00D001AE663 /* User+CoreDataProperties.swift */,
 				C377C97B28042069004CD504 /* Users.json */,
 				C377C98528042288004CD504 /* UserModel.swift */,
 			);
@@ -408,30 +408,30 @@
 			files = (
 				C3DA95B92800C660003A41EE /* MainViewController.swift in Sources */,
 				C35C236A28040DC000B78459 /* CreatePostViewController.swift in Sources */,
+				C32E3D512806B00D001AE663 /* Post+CoreDataProperties.swift in Sources */,
 				C35C235C2801B56500B78459 /* ProfileSelectionController.swift in Sources */,
 				C35C23612801FD1700B78459 /* UserView.swift in Sources */,
 				C3DA95982800C363003A41EE /* AppDelegate.swift in Sources */,
 				C35C23592801B4C500B78459 /* ProfilePresantationController.swift in Sources */,
 				C3D1AFBA2804851400B5B529 /* FSTextView.swift in Sources */,
-				C377C9832804218A004CD504 /* User+CoreDataClass.swift in Sources */,
+				C32E3D4F2806B00D001AE663 /* SavedUser+CoreDataProperties.swift in Sources */,
 				C35C2368280409E400B78459 /* FSButton.swift in Sources */,
+				C32E3D4C2806B00D001AE663 /* User+CoreDataClass.swift in Sources */,
 				C377C98628042288004CD504 /* UserModel.swift in Sources */,
 				C3DA95C52800C779003A41EE /* UITableViewCell+Extensions.swift in Sources */,
-				C328078F2804327300FE53CB /* SavedUser+CoreDataProperties.swift in Sources */,
 				C3DA95C82800C779003A41EE /* UIView+Extensions.swift in Sources */,
 				C3DA95C72800C779003A41EE /* UITableView+Extensions.swift in Sources */,
 				C3DA95A22800C363003A41EE /* FantaStockerCase.xcdatamodeld in Sources */,
 				C3DA95C62800C779003A41EE /* UIColor+Extensions.swift in Sources */,
 				C3DA95CD2800C7D1003A41EE /* ProfileDrawerView.swift in Sources */,
+				C32E3D502806B00D001AE663 /* Post+CoreDataClass.swift in Sources */,
 				C3DA95BC2800C690003A41EE /* MainViewModel.swift in Sources */,
 				C3DA95BF2800C6C2003A41EE /* Typealias.swift in Sources */,
-				C377C9822804218A004CD504 /* Post+CoreDataClass.swift in Sources */,
-				C377C9842804218A004CD504 /* Post+CoreDataProperties.swift in Sources */,
-				C328078E2804327300FE53CB /* SavedUser+CoreDataClass.swift in Sources */,
 				C3DA95ED2800D6A7003A41EE /* CoreDataManager.swift in Sources */,
+				C32E3D4D2806B00D001AE663 /* User+CoreDataProperties.swift in Sources */,
 				C35C236D28040DE200B78459 /* CreatePostViewModel.swift in Sources */,
-				C377C9812804218A004CD504 /* User+CoreDataProperties.swift in Sources */,
 				C35C235E2801B93D00B78459 /* ProfileSelectionViewModel.swift in Sources */,
+				C32E3D4E2806B00D001AE663 /* SavedUser+CoreDataClass.swift in Sources */,
 				C3DA95D22800C7FA003A41EE /* PostView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
